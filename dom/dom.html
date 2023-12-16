@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning DOM</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+</body>
+<script>
+    const parent = document.querySelector('.parent');
+
+    // console.log(parent);
+
+    // console.log(parent.children);  // HTML collection (to iterate can use for loop).
+
+    // console.log(parent.firstElementChild.innerHTML);
+    // console.log(parent.lastElementChild.innerHTML);
+
+    const day = document.querySelector('.day');
+
+    // console.log(day.parentElement);
+    // console.log(day.nextElementSibling);
+
+    console.log("nodes :",parent.childNodes) // 9 (every line break is considered)
+
+
+
+</script>
+</html>
